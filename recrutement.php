@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title> Softbase Recrutements </title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto+Condensed:300,400,700" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Titillium+Web:300,400" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300" rel="stylesheet">
+</head>
+<body>
+
+<?php include("barrenav.php"); ?>
+    
+<img src="recrutementbanniere1.jpg" class="imgindex" alt="recrutementbanniere">
+    
+<div class="blocrecrutement">
+    <h1> SOFTBASE PROFESSIONAL</h1>
+    <p class="bloc"> SOFTBASE FAIT EN SORTE D'ELARGIR LES OPPORTUNITES DE CARRIERE ET DE PROPOSER TOUTES SORTES DE METIERS SE RATTACHANT A LA MODE ET AU LUXE. NOUS NOUS ADAPTONS AU MONDE DU METIER QUI NE CESSE D'EVOLUER CHAQUE ANNEES, CHAQUE DECENNIES. NOUS RECHERCHONS ET RETROUVONS ALORS DANS NOTRE MAISON UNE LARGE PALETTE DE METIERS: INGENIEUR SECURITE, WEBDESIGNER, COUTURIERS, MANNEQUINS, DIRECTEUR MARKETING, PARFUMIERS..</p>
+</div>
+
+<img src="recrutementbanniere2.jpg" class="imgindex" alt="recrutementbanniere">
+
+<div class="blocrecrutement">
+    <p class="recrutement2"> L'EXCELLENCE EST INDISPENSABLE CHEZ SOFTBASE. NOUS FORMONS NOS FUTURS EMPLOYES DANS NOMBREUX DOMAINES TEL QUE DANS LA FABRICATION, COMMUNICATION, MARKETING, PUBLICITE, DISTRIBUTION, VENTE POUR UN APPRENTISSAGE DU SAVOIR-FAIRE DE LA MARQUE. NOUS AIDONS NOS ELEVES A APPROFONDIR LEURS CONNAISSANCES DANS LA HAUTE COUTURE ET LES EMBARQUE DIRECTEMENT VERS LE MONDE PROFESSIONNEL GRÂCE AUX NOMBREUX STAGES QUE NOUS PROPOSONS A TRAVERS LA MARQUE.</p> 
+</div>
+        
+ <img src="recrutementbanniere3.jpg" class="imgindex" alt="recrutementbanniere">
+        
+ <div class="blocrecrutement2">
+    <p class="recrutement2">LE MANNEQUINAT EST EGALEMENT ANCREE DANS L'ADN DE SOFTBASE PUISQUE DEPUIS PLUS DE VINGT-ANS, NOUS FAISONS EN SORTE QUE LES MODELES SE SENTENT EPANOUIS DANS LES ATELIERS, DURANT LES DEFILES ET LEUR APPRENONS A SE PROJETER DANS L'AVENIR, A SE TROUVER ET A SE CONNAITRE. LES CRITERES DE BEAUTE CHEZ SOFTBASE NE SONT PAS DEFINIS PAR DES CODES, CHAQUE INDIVIDU A PLACE DANS LA MAISON SOFTBASE. </p>
+         <h2 class="index2"><a href="https://docs.google.com/forms/d/e/1FAIpQLSdPQoyT4MVZEPyDJ6W_50OT77WJcYY54lqbLG7M_8d3fjC51g/viewform">POSTULEZ ICI</a></h2>
+</div>
+    
+
+        
+<?php include("footer.php"); ?>
+    </body>
+</html>

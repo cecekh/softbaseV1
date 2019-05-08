@@ -1,0 +1,305 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+body{
+    margin: 0px;
+}
+
+/*NAVIGATION*/
+
+.navigation{
+    margin: 0px;
+}
+
+header{
+    background: white;
+    position: fixed;
+    width: 100%;
+    height: 70px;
+    z-index: 2;
+}
+
+
+#logo{
+    float: left;
+    width: 250px;
+    padding-top: 10px;
+}
+
+nav {
+  float: right;
+}
+
+nav ul {
+  margin: 0;
+  padding: 0;
+  padding-right: 50px;
+  list-style: none;
+}
+
+nav li {
+  display: inline-block;
+  margin-left: 70px;
+  padding-top: 22px;
+  position: relative;
+}
+
+nav a {
+  color: black;
+  text-decoration: none;
+  font-size: 14px;
+  font-family: Roboto;
+}
+
+nav a::before {
+  content: '';
+  display: block;
+  height: 2px;
+  background-color: #444;
+  position: absolute;
+  top: 50px;
+  width: 0%;
+  transition: all ease-in-out 250ms;
+}
+
+nav a:hover::before {
+  width: 100%;
+}
+
+/*CONTENU DE L'INDEX*/
+
+
+.imgindex{
+    width: 100%;
+}
+
+.blocindex1{
+    background-color: #98B4A0;
+    height: 380px;
+    width: 100%;
+    margin-top: -8px;
+}
+
+h2.index{
+    border: 5px white double;
+    padding: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    width: 600px;
+    margin-top: 20px;
+}
+
+h2.index a{
+    display: block;
+    padding: 10px 0px 8px 16px;
+    text-decoration: none;
+    color: white;
+    font-family: Titillium Web;
+    letter-spacing: 5px;
+}
+
+.blocindex2{
+    background-color: grey;
+    height: 310px;
+    width: 100%;
+    margin-top: -8px;
+}
+
+h2.index2{
+    border: 5px white double;
+    padding: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    width: 600px;
+    margin-top: 20px;}
+
+
+h2.index2 a{
+    display: block;
+    padding: 10px 0px 8px 16px;
+    text-decoration: none;
+    color: white;
+    font-family: Titillium Web;
+    letter-spacing: 5px;
+}
+
+/*GENERAL*/
+
+h1{
+    text-align: center;
+    font-size: 40px;
+    font-family: Titillium Web, sans-serif;
+    color: white;
+    padding-top: 10px;
+}
+
+p.bloc{
+    font-family: Roboto;
+    color: white;
+    text-align: justify;
+    padding: 0px 205px;
+    padding-top: 12px;
+    line-height: 25px;
+    font-size: 14px;
+}
+
+footer{
+    text-align: center;
+    padding: 15px;
+    background-color: #242224;
+    font-family: Roboto;
+    color: white;
+}
+
+/*PAGE MANNEQUINS*/
+ 
+.blocmannequin{
+    display: block;
+    background-color: #cba9a8;
+    height: 250px;
+    width: 100%;
+    margin-top: -8px;
+}
+
+.imgmannequin{
+    width: 400px;
+    margin-top: 50px;
+    padding: 60px 100px 5px 300px;
+}
+
+h2.flotte{
+    font-family: Roboto;
+    font-size: 50px;
+    padding: 140px 0px 0px;
+    float: left;
+}
+
+ul.flotte{
+    font-family: Roboto;
+    margin-top: 250px;
+    font-size: 20px;
+    margin-right:50px;
+}
+
+.descriptionmannequin{
+    padding: 0px 0px 300px;
+    font-family: Roboto;
+}
+.flag{
+    width: 20px;
+}
+
+/* PAGE RECRUTEMENTS*/
+
+.blocrecrutement{
+    background-color: #696363;
+    height: 220px;
+    width: 100%;
+    margin-top: -8px;
+}
+
+.blocrecrutement2{
+    background-color: #696363;
+    height: 320px;
+    width: 100%;
+    margin-top: -8px;
+}
+
+p.recrutement{
+    margin-top: 20px;
+    font-family: Roboto;
+}
+
+p.recrutement2{
+    font-family: Roboto;
+    color: white;
+    text-align: justify;
+    padding: 0px 205px;
+    padding-top: 50px;
+    line-height: 25px;
+    font-size: 14px;
+}
+
+.recrutementbanniere3{
+    width: 100%;
+    padding-top: 50px;
+}
+
+/*PAGE NOUVELLE COLLECTION*/
+
+.blocnouvellecollection{
+    background-color: #62707D;
+    width: 100%;
+    height: 350px;
+    margin-top: -8px;
+}
+
+.colonne1{
+    margin-left: auto;
+    margin-right: auto;
+    width: 90%;
+}
+
+.column {
+  float: left;
+  width: 20%;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 60px 0px 0px 50px;
+}
+
+p.descriptionnouvellecollection{
+    font-family: Roboto;
+    font-size: 15px;
+    margin-left: 10px;
+    padding-top: 10px;
+}
+
+p.prix{
+    font-family: Roboto;
+    margin-left: 10px;
+    margin-top: 2px;
+}
+
+.prixdernier{
+    padding-bottom: 60px;
+    font-family: Roboto;
+    margin-left: 10px;
+    margin-top: 2p  font-family: Roboto;
+    color: white;
+    text-align: justify;
+    padding: 0px 205px;
+    padding-top: 12px;
+    line-height: 25px;
+    font-size: 14px;
+}
+
+video{
+    width: 100%;
+}
+
+/*PAGE CONTACT*/
+.contact{
+width: 100%;
+}
+
+.contactbloc{
+    background-color: #97ACD9;
+    width: 100%;
+    height: 350px;
+    margin-top: -8px;
+}
+
+p.contactinfo{
+    font-family: Roboto;
+    color: black;
+    text-align: justify;
+    padding-left: 205px;
+    padding-top: 40px;
+    line-height: 5px;
+    font-size: 14px;
+}
